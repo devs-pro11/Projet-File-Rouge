@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet fil rouge</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style type="text/css">
+     body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+     header{
+        width: 80%;
+        margin: 0 auto; 
+     }
+     .nav-1{
+      width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+     }
+     .paragraphe{
+        font-weight: 17px;
+     }
+.paragraphe-1{
+    display: flex;
+    gap: 30px;
+}
+.nav-1 ul{
+    display: flex;
+}
+.nav-1 ul li {
+    padding-right: 10px;
+    list-style: none;
+}
+hr{
+    width: 80%;
+}
+.navbar{
+    display: flex;
+    margin-left: 14rem;
+}
+.nav-1 p{
+color: rgb(77, 70, 70);
+}
+p a{
+    text-decoration: none;
+    color: rgb(77, 70, 70);
+}
+.nav-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 15rem;
+}
+.nav-2 ul li{
+margin-right: 30px;
+list-style: none;
+}
+.nav-2 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+}
+.nav-2 ul li.active a {
+  color:red;
+}
+.nav-2 ul li a:hover{
+    color: #e70808;
+}
+main{
+background-image: url(./assets/assets/images/banner-01.jpg);
+width: 100%;
+height: 720px;
+padding-top: 10px;
+}
+main .banner-01{
+    margin: 12rem 10rem;
+}
+.banner-01 .content-01 h1{
+    background-color: white;
+    width: 10rem;
+    padding: 5px 8px;
+    font-size: 25px;
+}
+.banner-01 .content-01 h1 span{
+    color: orange;
+}
+.banner-01 .content-01 p{
+    color: white;
+      font-size: 60px;
+      width: 500px;
+      margin: 0;
+}
+.banner-02{
+    display: flex;
+    width: 90%;
+    margin: 80px 150px 0;
+    padding-top: 150px;
+    gap: 50px;
+}
+.banner-02 .icon-gauche img{
+    background-color: #e70808;
+    width: 50px;
+    height: 50px;
+   margin: 0;
+}
+.banner-02 img , .carte{
+    height: 450px;
+}
+.banner-02 .carte-1 img{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+}
+.banner-02 .carte-1{
+    display: flex;
+    gap: 10px;
+}
+.banner-02 .carte-1 h1{
+    margin: 0px;
+}
+.cartes{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width:16rem;
+    text-align: center;
+    height: 400px;
+    padding: 5px;
+}
+.content{
+    border-bottom: 1px solid rgb(238, 231, 231);
+}
+.milieu H1{
+    color: rgb(230, 66, 66);
+    margin-top: 0px;
+}
+.milieu h2{
+ font-size: 40px;
+ padding: 30px 0px;
+
+}
+.milieu p{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(148, 135, 135);
+}
+.milieu .red{
+    color: brown;
+}
+.milieu .noir{
+    color: black;
+}
+.milieu .bleu{
+    color: blue;
+}
+.banner-03{
+    background-image: url(./assets/assets/images/video-bg.jpg);
+    height: 700px;
+}
+.banner-03 .content3{
+    text-align: center;
+    padding-top: 50px;
+}
+.banner-03 .content3 p{
+    padding-bottom: 90px;
+}
+.banner04{
+    background-image: url(./assets/assets/images/video-frame.jpg);
+    height: 460px;
+    width: 70%;
+    margin: 0 auto;
+}
+.content3 h1{
+    color: red;
+     font-size: 40px;
+}
+.content3 p{
+    color: white;
+    font-size: 60px;
+}
+.banner-05{
+    margin-top: 20rem;
+    width: 80%;
+}
+.cartes-05{
+    display: flex;
+    width: 80%;
+    margin-left: 10rem;
+    gap: 10rem;
+}
+.content5{
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    height: 80px;
+    width: 220px;
+    background-color: rgb(245, 187, 187);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; 
+   align-items: center;
+   justify-content: center;
+}
+.content5 h2{
+    color: orangered;
+    font-size: 50px;
+}
+.content5 p{
+    font-size: 20px;
+}
+.content6{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.navbar ul {
+display: flex;
+align-items: center;
+}
+.banner-06 ul li a{
+    color: white;
+  
+    font-size: 17px;
+    font-weight: bold;
+} 
+.banner-06 ul li {
+    list-style: none;
+}
+.banner-06 ul .noir{
+    margin-right: 25px;
+    list-style: none;
+    background-color: black;
+    height: 25px;
+    width: 110px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+  
+}
+.banner-06 ul .orange{
+ background-color: orangered;
+ margin-right: 30px;
+    list-style: none;
+    height: 25px;
+    width: 110px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+.banner-06 p{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.banner-06 h1{
+    margin-left: 8rem;
+    color: red;
+    padding: 10px 5px;
+}
+.banner-06 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+     }
+.banner-07{
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    gap: 4rem;
+}
+.banner-07 .parti{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    height: 80px;
+    width: 250px;
+    border-bottom: 1px solid rgb(209, 200, 200);
+}
+.cartes-banners{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width:16rem;
+    text-align: center;
+    height: 320px;
+    padding: 5px;
+}
+.banner-07 img{
+    width: 100%;
+    height: 400px;
+}
+.banner-07 h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.banner-07 p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #7e7676;
+    padding-top: 5px;
+}
+.banner-08 h3{
+    text-align: center;
+    color: #e70808;
+    font-size: 20px;
+}
+.banner-08 h2{
+       text-align: center;
+       margin-bottom: 50px;
+       font-size: 40px;
+}
+.banner8cartes img{
+    width: 300px;
+    border-radius: 5px;
+}
+.banner8cartes{
+display: flex;
+width: 80%;
+margin: 0 auto;
+gap:5rem;
+height: 700px;
+}
+.banner8cartes button{
+    margin-left: 5rem;
+}
+.carte-banner1 h1{
+    font-size:20px;
+}
+.banner8cartes .content-banner8{
+    display: flex;
+    justify-content: space-between;
+}
+.content-banner8 p{
+    color: black;
+}
+.banner8cartes .content-banner{
+    display: flex;
+    justify-content: space-between;
+     }
+     .banner-09{
+     background-image:url(./assets/assets/images/video-bg.jpg) ;
+    height: 550px;
+    }
+    form{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+form input{
+    height: 50px;
+    width: 100%;
+}
+textarea{
+    height: 50px;
+    width: 90%;
+    padding: 20px;
+}
+img{
+    border-radius: 8px;
+    height: 400px;
+    width: 500px;
+}
+button{
+    background-color: black;
+    border-radius: 20px;
+    width: 8rem;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+button:hover{
+background-color: orangered;
+}
+.container-banner-09{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    gap: 5rem;
+
+}
+.content-banner9 .text{
+    color:red;
+    text-align: center;
+    padding-top: 80px;
+    margin: 5px;
+    font-size: 30px;
+}
+.content-banner9 h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.content-banner8{
+ display: flex;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height:80px;
+    margin-top: 30rem;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+.banner-09 .icons {
+    display: flex;
+    
+}
+
+.banner-09 .partie1{
+    display: flex;
+}
+.banner-09 .partie1{
+    height: 30px;
+    width: 40px;
+}
+.banner-09 .map iframe{
+    border-radius: 8px;
+}
+.phone{
+    box-shadow: 0 0 10px rgba(14, 3, 3, 0.1);
+    display: flex;
+    width: 240px;
+    height: 85px;
+    gap: 10px;
+}
+.phone img{
+    height: 50px;
+    width: 30px;
+}
+.icons{
+    justify-content: space-between;
+}
+.carte-banner1 .back{
+background-color: rgb(180, 114, 114);
+color: black;
+}
+.banner-05 .cercle{
+    background-color: #f72702;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 12rem;
+}
+
+  /* Pour les tablettes (2 colonnes) */
+  @media (max-width: 1024px) {
+               body{
+               display: flex;
+               flex-wrap: wrap;
+            }
+            .droite{
+                flex-wrap: wrap;
+                flex-direction: row;
+             }
+                .hero-image{
+                    margin-top: 50px;
+             }
+             .cartes-05{
+                flex-wrap: wrap;
+                flex-direction: row;
+             }
+             .navbar{
+                flex-wrap: wrap;
+                flex-direction: row;
+             }
+             .navbar ul{
+                flex-wrap: wrap;
+                flex-direction: row;
+             }
+              .banner-02{
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+            .banner-07{
+                flex-wrap: wrap;
+                flex-direction: row;
+                margin-bottom: 550px;
+            }
+            .banner8cartes{
+                flex-wrap: wrap;
+                flex-direction: row;
+                margin-bottom: 600px;
+            }
+            .banner-09{
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+        }
+
+        /* Pour les mobiles smartphone (1 colonne) */
+        @media (max-width: 600px) {
+            body{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .droite{
+                flex-wrap: wrap;
+                flex-direction: row;
+             }
+             .cartes-05{
+                flex-wrap: wrap;
+                flex-direction: row;
+             }
+             .navbar{
+                flex-wrap: wrap;
+                flex-direction: row;
+             }
+             .navbar ul{
+                flex-wrap: wrap;
+                flex-direction: row;
+             }
+             .banner-02{
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+            .banner-07{
+                flex-wrap: wrap;
+                flex-direction: row;
+                margin-bottom: 550px;
+            }
+            .banner8cartes{
+                flex-wrap: wrap;
+                flex-direction: row;
+                margin-bottom: 600px;
+            }
+            .banner-09{
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+    }
+     
+    </style>
+</head>
+<body>
+    <div class="entete">
+    <header>
+        <div class="nav-1">
+            <div class="paragraphe-1">
+            <p><i class="fa-solid fa-envelope" style="color: #e70808;"></i> info@company.com</p>
+            <p><i class="fa-solid fa-map" style="color: #f72702;"></i> Sonny Isle Beach,FL33160</p>
+            </div>
+            <ul>
+                <li><a href="https://fr-fr.facebook.com/"><i class="fa-brands fa-facebook" style="color: #7e7676;"></i></a></li>
+                <li><a href="https://x.com/Log%20in/"><i class="fab fa-twitter" style="color: #7e7676;"></i></a></li>
+                <li><a href="https://fr.linkedin.com/"><i class="fa-brands fa-linkedin" style="color: #7e7676;"></i></i</a></li>
+                <li><a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram-square share" style="color: #7e7676;"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <hr>
+        <nav class="navbar">
+        <div class="nav-2">
+        <div class="paragraphe">
+            <h1>VILLA</h1>
+        </div>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#proporties">Properties</a></li>
+                <li><a href="#proporties-details">Property Details</a></li>
+                <button type="submit">Schedule a visit</button>
+            </ul>     
+        </div>
+    </nav>
+</div>
+<main>
+    <div class="banner-01">
+<div class="content-01">
+    <h1>Toronto,<span>canada</span></h1>
+    <p>HURRY!<br>
+     GET THE BEST <br>
+     VILLA FOR YOU</p>
+   </div>
+</div>
+<div class="banner-02">
+    <div class="gauche">
+        <img src="./assets/assets/images/featured.jpg" alt="">
+        <div class="icon-gauche">
+            <img src="./assets/assets/images/featured-icon.png" alt="image">
+        </div>
+    </div>
+    <div class="milieu">
+        <h1>|FUTURED</h1>
+        <h2>Best <br>
+            Appartement & <br>
+            Sea View
+        </h2>
+        <p class="red">Best useful links</p>
+        <p>Get <span class="noir">the best villa</span> Wewsite template in HTML CSS <br>
+             and Boostrap for your Business. TemplateMo <br>
+             provides you the <span class="bleu">best free CSS templete</span> in the <br>
+             world. Please tell your friends about it.</p>
+             <p>How does this work?</p>
+             <p>Why is Villa Agency the Best ?</p>
+    </div>
+    <div class="droite">
+        <div class="cartes">
+            <div class="carte-1">
+                <img src="./assets/assets/images/info-icon-01.png" alt="">
+                <div class="content">
+                    <h1>250 m2</h1>
+                    <p>Total Flat Space</p>
+                </div>
+            </div>
+            <div class="carte-1"> 
+                    <img src="./assets/assets/images/info-icon-02.png" alt="">
+                    <div class="content">
+                    <h1>Contract</h1>
+                    <p>contract Ready</p>
+                </div>
+            </div>
+            <div class="carte-1">
+                <img src="./assets/assets/images/info-icon-03.png" alt="">
+                <div class="content">
+                    <h1>Payment</h1>
+                    <p>Payment Process</p>
+                </div>
+            </div>
+            <div class="carte-1">
+                <img src="./assets/assets/images/info-icon-04.png" alt="">
+                <div class="content">
+                    <h1>Safetty</h1>
+                    <p>24/7 under control</p>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="banner-03">
+<div class="content3">
+    <h1>| Video View</h1>
+    <p>Get closer View & <br> Different Feeling</p>
+    <div class="banner04">
+    </div>
+</div>
+    </div> 
+<div class="banner-05">
+    <div class="cartes-05">
+        <div class="carte-01">
+            <div class="cercle"></div>
+            <div class="content5">
+                <h2>34</h2>
+                <p>Buildind <br> Finised now</p>
+            </div>
+            
+        </div>
+        <div class="carte-01">
+            <div class="cercle"></div>
+            <div class="content5">
+                <h2>12</h2>
+                <p>Years <br>Experience</p>
+            </div>
+        </div>
+        <div class="carte-01">
+            <div class="cercle"></div>
+            <div class="content5">
+                <h2>24</h2>
+                <p>Awward <br> Won 2023</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="proporties-details" class="banner-06">
+    <h1>| BEST DEAL</h1>
+    <div class="content6">
+    <div class="navbar">
+        <p>Find Your Best Deal <br> Right Now</p>
+        <ul>
+            <li class="orange"><a href="">Appartement</a></li>
+            <li class="noir"><a href="">Villa house</a></li>
+            <li class="noir"><a href="">Penthouse</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+<div class="banner-07">
+    <div class="cartes-banners">
+    <div class="carte-banner">
+        <div class="parti">
+            <p>Total plat space</p>
+            <h3>185 m2</h3>
+        </div>
+    </div>
+    <div class="carte-banner">
+        <div class="parti">
+            <p>Total plot space</p>
+            <h3>185 m2</h3>
+        </div>
+    </div>
+    <div class="carte-banner">
+        <div class="parti">
+            <p>Total plat space</p>
+            <h3>185 m2</h3>
+        </div>
+    </div>
+    <div class="carte-banner">
+        <div class="parti">
+            <p>Total plat space</p>
+            <h3>185 m2</h3>
+        </div>
+    </div>
+</div>
+    <div class="image">
+        <img src="./assets/assets/images/deal-01.jpg" alt="" srcset="">
+    </div>
+    <div class="texte">
+        <h2>Extra info About Preperty</h2>
+    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Esse est reprehenderit <br> a quasi voluptates temporibus nemo quia inventore  <br> totam deserunt dolorem ipsa modi, error <br> praesentium tenetur beatae atque iure itaque?</p>
+    <p>When you need free css templates, you <br> can simply type templateMo in any search <br> engine webside. in addition, you can type <br> templateMo portfolio, TemplateMo one <br> Page Layouts, etc</p>
+    <ul>
+        <button>Schedule a visit</button>
+    </ul>
+</div>
+</div>
+<div id="proporties" class="banner-08">
+    <h3>| PROPERTIES</h3>
+    <H2> We Provide the <br> Best Property you <br> Like </H2>
+<div class="banner8cartes">
+    <div class="carte-banner1">
+        <img src="./assets/assets/images/property-01.jpg" alt="">
+        <div class="content-banner">
+            <p class="back">Luxeury villa</p>
+            <p>$2.264.000</p>
+        </div>
+       <h1>18 New street Miami, OR 97219</h1>
+       <div class="content-banner8">
+        <p>Bedrooms:8</p>
+        <p>Bathrooms:8</p>
+       </div>
+       <div class="content-banner8">
+        <p>Area:545me</p>
+        <p>Floor:3</p>
+        <p>Parking:6 spots</p>
+       </div>
+        <button>Schedule a visit</button>
+    </div>
+    <div class="carte-banner1">
+        <img src="./assets/assets/images/property-02.jpg" alt="">
+        <div class="content-banner">
+            <p class="back">Luxeury villa</p>
+            <p>$2.264.000</p>
+        </div>
+       <h1>18 New street Miami, OR 97219</h1>
+       <div class="content-banner8">
+        <p>Bedrooms:8</p>
+        <p>Bathrooms:8</p>
+       </div>
+       <div class="content-banner8">
+        <p>Area:545me</p>
+        <p>Floor:3</p>
+        <p>Parking:6 spots</p>
+       </div>
+        <button>Schedule a visit</button>
+    </div>
+    <div class="carte-banner1">
+        <img src="./assets/assets/images/property-03.jpg" alt="">
+        <div class="content-banner">
+            <p class="back">Luxeury villa</p>
+            <p>$2.264.000</p>
+        </div>
+       <h1>18 New street Miami, OR 97219</h1>
+       <div class="content-banner8">
+        <p>Bedrooms:8</p>
+        <p>Bathrooms:8</p>
+       </div>
+       <div class="content-banner8">
+        <p>Area:545me</p>
+        <p>Floor:3</p>
+        <p>Parking:6 spots</p>
+       </div>
+        <div><button>Schedule a visit</button></div>
+    </div>
+</div>
+</div>
+<div class="banner-09">
+    <div class="content-banner9">
+        <p class="text">| Contact us</p>
+        <h1>Get in Touch with <br> Our Agents</h1>
+        <div class="container-banner-09">
+            <div class="gauche">
+               <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.8298621958224!2d-17.497534290211263!3d14.722209185719342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec16d4c4fdae0a5%3A0x80a08f1e9957fdc8!2sMonument%20de%20la%20Renaissance%20Africaine!5e0!3m2!1sfr!2ssn!4v1742831936438!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+                <div id="contact" class="icons">
+                    <div class="phone">
+                        <p><img src="./assets/assets/images/phone-icon.png" alt=""></p>
+                        <div class="parties-content">
+                            <h2>010-020-0340</h2>
+                            <p>Phone Number</p>
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <p><img src="./assets/assets/images/email-icon.png" alt=""></p>
+                        <div class="parties-content">
+                            <h2>info@villa.co</h2>
+                            <p>Business email</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="droite">
+                <form action="">
+                        <label for="nom">Préom</label>
+                        <br>
+                        <input type="text" id="prénom" name="nom" placeholder="Enter votre prénom">
+                        <br> <br>
+                        <label for="nom">Nom</label>
+                        <br>
+                        <input type="text" id="nom" name="nom" placeholder="Enter votre nom">
+                        <br> <br>
+                        <label for="mail">E-mail</label>
+                        <br>
+                        <input type="email" id="mail" name="E-mail" placeholder="saisir votre mail">
+                        <br><br>
+                        <label for="Langages">langage:</label>
+                             <textarea name="message" rows="10" cols="30"></textarea>
+                            <br> <br>
+                            <button type="submit">Envoyer</button>
+                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Copyright@2048 villa Agency Co,Ltd. All right reserved.Design:TemplateMo</p>
+</footer>
+
+</main>
+</body>
+</html>
